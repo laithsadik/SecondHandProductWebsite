@@ -1,0 +1,26 @@
+1.Visual Studio Code (VSC): 
+  Install Visual Studio Code from the official website (https://code.visualstudio.com/).
+
+2.Node.js and npm:
+  Install Node.js and npm from the official website (https://nodejs.org/).
+  Ensure that Node.js and npm are added to your system's PATH.
+
+3.Clone the Repository: 
+  Download or clone the project repository containing the client and server code from a version control system like Git.
+
+4.Install Dependencies:
+  Client: Navigate to the client directory in the terminal(cd client) and run npm install to install the client-side dependencies.
+  Server: Similarly, navigate to the server directory(cd server) and run npm install to install the server-side dependencies.
+
+5.Start the Server:
+  In the terminal, navigate to the server directory.
+  Run the server using the command npm run dev or node server.js.
+
+6.Start the Client:
+  Open a new terminal window or tab.
+  Navigate to the client directory.
+  Run the client using the command npm start.
+
+7.Access the Application:
+  Open a web browser and navigate to http://localhost:3000 to view the React client.
+ The server will be running on a different port (5000) and is accessed through the client's code.
